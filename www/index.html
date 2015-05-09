@@ -12,14 +12,14 @@
         <link rel="import" href="bower_components/core-header-panel/core-header-panel.html">
         <link rel="import" href="bower_components/core-menu/core-menu.html">
         <link rel="import" href="bower_components/core-item/core-item.html">
+        <link rel="import" href="bower_components/font-roboto/roboto.html">
         <title>Cordova & Polymer app</title>
         <style>
             html, body {
                 height: 100%;
                 margin: 0;
-            }
-            body {
-                font-family: sans-serif;
+                font-family: 'RobotoDraft', sans-serif;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
             }
             core-scaffold {
                 position: absolute;
@@ -46,7 +46,7 @@
             }
         </style>
     </head>
-    <body>
+    <body unresolved>
         <core-scaffold>
             <core-header-panel navigation flex mode="seamed">
                 <core-toolbar id="core_toolbar">Navigation</core-toolbar>
