@@ -1,0 +1,21 @@
+{
+  "name": "www",
+  "version": "0.0.0",
+  "authors": [
+    "Carlos Blanco <carlosblanco@me.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.8.0",
+    "core-elements": "Polymer/core-elements#~0.5.6",
+    "paper-elements": "Polymer/paper-elements#~0.5.6",
+    "webcomponents": "Polymer/webcomponents"
+  }
+}
